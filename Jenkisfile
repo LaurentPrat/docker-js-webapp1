@@ -1,7 +1,7 @@
 node {
     checkout scm
 
-    docker.withRegistry('https://hub.docker.com', 'dockerlpdev-id') {
+    docker.withRegistry('https://registry.hub.docker.com', 'dockerlpdev-id') {
 
         def customImage = docker.build("lpdockerdev/nodewebapplp1")
 
