@@ -1,0 +1,13 @@
+{
+  "name": "dockerwebapplp1",
+  "version": "1.0.0",
+  "description": "test a Node.js on Docker with jenkinsfile declarative",
+  "author": "LPR",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
